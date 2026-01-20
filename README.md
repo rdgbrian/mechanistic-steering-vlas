@@ -129,3 +129,16 @@ This repo integrates OpenVLA and π₀ workflows for mechanistic interpretabilit
 - OpenVLA paper: https://openvla.github.io
 - π₀ (OpenPI) codebase: https://github.com/Physical-Intelligence/openpi
 - π₀ paper: https://www.pi.website/blog/pi0
+
+## Citation
+If you use this work, please cite:
+```bibtex
+@inproceedings{
+haon2025mechanistic,
+title={Mechanistic Interpretability for Steering Vision-Language-Action Models},
+author={Bear H{\"a}on and Kaylene Caswell Stocking and Ian Chuang and Claire Tomlin},
+booktitle={9th Annual Conference on Robot Learning},
+year={2025},
+url={https://openreview.net/forum?id=YvsUD8C9QS}
+}
+```
