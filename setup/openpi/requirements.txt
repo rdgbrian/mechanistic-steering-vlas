@@ -1,0 +1,43 @@
+numpy==1.26.4
+tqdm
+pyyaml
+pillow
+filelock
+matplotlib
+torch==2.2.0
+jax[cuda12]==0.4.34
+flax==0.10.4
+optax==0.2.5
+orbax-checkpoint==0.5.1
+tensorstore==0.1.51
+ml-dtypes==0.3.1
+etils
+typing_extensions
+fsspec==2026.1.0
+protobuf==4.25.8
+augmax
+einops
+beartype
+jaxtyping<0.3.0
+sentencepiece
+transformers==4.48.1
+tokenizers==0.21.4
+boto3
+tqdm_loggable
+types-boto3-s3
+tyro
+ml_collections
+numpydantic
+tensorflow==2.16.1
+tensorflow-datasets
+```
+
+**Key conversions made:**
+- `pytorch=2.2.0` → `torch==2.2.0` (PyTorch's pip package name)
+- Removed `ittapi` (Intel-specific tool, usually not needed for basic functionality)
+- Removed `python=3.10` and `pip` (these aren't packages to install)
+- Changed `=` to `==` for pip compatibility
+
+**Note:** You may need to adjust the PyTorch installation depending on your CUDA version. If you need a specific CUDA version, you might want to use:
+```
+torch==2.2.0+cu121  # for CUDA 12.1, for example
