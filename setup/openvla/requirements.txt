@@ -16,7 +16,7 @@ timm>=0.9.10,<1.0.0
 accelerate
 draccus
 huggingface_hub
-tensorflow==2.16.1
+tensorflow
 tensorflow-datasets
 libero
 robosuite==1.4.0
