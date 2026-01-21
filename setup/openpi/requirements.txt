@@ -30,14 +30,4 @@ ml_collections
 numpydantic
 tensorflow==2.16.1
 tensorflow-datasets
-```
-
-**Key conversions made:**
-- `pytorch=2.2.0` → `torch==2.2.0` (PyTorch's pip package name)
-- Removed `ittapi` (Intel-specific tool, usually not needed for basic functionality)
-- Removed `python=3.10` and `pip` (these aren't packages to install)
-- Changed `=` to `==` for pip compatibility
-
-**Note:** You may need to adjust the PyTorch installation depending on your CUDA version. If you need a specific CUDA version, you might want to use:
-```
 torch==2.2.0+cu121  # for CUDA 12.1, for example
